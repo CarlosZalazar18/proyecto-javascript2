@@ -1,4 +1,3 @@
-// Simulación de productos (puedes reemplazar con una base de datos real)
 const products = [
     // Laptops
     { id: 1, name: 'Laptop Acer Aspire 5', price: 649, category: 'laptops' },
