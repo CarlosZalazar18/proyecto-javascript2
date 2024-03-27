@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMart - Productos de Computación</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>TechMart</h1>
+            <div class="search-cart">
+                <input type="text" id="searchInput" placeholder="Buscar productos...">
+                <button onclick="searchProducts()">Buscar</button>
+                <div class="cart">
+                    <img src="cart_icon.png" alt="Carrito de compras">
+                    <span id="cartCount">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="laptops">
+        <div class="container">
+            <h2>Laptops</h2>
+            <div class="products-container" id="laptops-container">
+                <!-- Aquí se llenarán los productos de laptops con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="desktops">
+        <div class="container">
+            <h2>PCs de Escritorio</h2>
+            <div class="products-container" id="desktops-container">
+                <!-- Aquí se llenarán los productos de desktops con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <div id="searchResults" class="container"></div>
+
+    <section id="cart">
+        <div class="container">
+            <h2>Carrito de Compras</h2>
+            <div id="cartContainer" class="products-container"></div>
+            <button onclick="checkout()">Finalizar Compra</button>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
