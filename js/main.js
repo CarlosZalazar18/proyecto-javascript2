@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 agregarAlCarrito(productoSeleccionado);
                 mostrarProductos(productos);
             } else {
-                alert("¡Lo sentimos, este producto está agotado!");
+                
             }
         }
     });
@@ -103,5 +103,3 @@ document.addEventListener("DOMContentLoaded", () => {
     cargarProductos();
     obtenerCarritoLocalStorage();
 });
-
-
