@@ -1,182 +1,76 @@
-[
-    {
-        "id": "abrigo-01",
-        "titulo": "Abrigo 01",
-        "imagen": "./img/abrigos/abrigo1.jpg",
-        "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Laptop HP",
+            "precio": 200000.00,
+            "stock": 10
         },
-        "precio": 3500
-    },
-    {
-        "id": "abrigo-02",
-        "titulo": "Abrigo 02",
-        "imagen": "./img/abrigos/abrigo2.jpg",
-        "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+        {
+            "id": 2,
+            "nombre": "Teclado mecánico",
+            "precio": 14000.00,
+            "stock": 15
         },
-        "precio": 2300
-    },
-    {
-        "id": "abrigo-03",
-        "titulo": "Abrigo 03",
-        "imagen": "./img/abrigos/abrigo3.jpg",
-        "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+        {
+            "id": 3,
+            "nombre": "Ratón inalámbrico",
+            "precio": 30500.00,
+            "stock": 20
         },
-        "precio": 3150
-    },
-    {
-        "id": "abrigo-04",
-        "titulo": "Abrigo 04",
-        "imagen": "./img/abrigos/abrigo4.jpg",
-        "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+        {
+            "id": 4,
+            "nombre": "Monitor LG 27\"",
+            "precio": 55870.00,
+            "stock": 5
         },
-        "precio": 3280
-    },
-    {
-        "id": "abrigo-05",
-        "titulo": "Abrigo 05",
-        "imagen": "./img/abrigos/abrigo5.jpg",
-        "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+        {
+            "id": 1,
+            "nombre": "Laptop Lenovo ",
+            "precio": 235999.00,
+            "stock": 10
         },
-        "precio": 2750
-    },
-    {
-        "id": "camiseta-01",
-        "titulo": "Camiseta 01",
-        "imagen": "./img/camisetas/camiseta1.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+        {
+            "id": 2,
+            "nombre": "Monitor Samsung 27 pulgadas",
+            "precio": 76400.00,
+            "stock": 5
         },
-        "precio": 1250
-    },
-    {
-        "id": "camiseta-02",
-        "titulo": "Camiseta 02",
-        "imagen": "./img/camisetas/camiseta2.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+        {
+            "id": 3,
+            "nombre": "Teclado mecánico Corsair K70",
+            "precio": 28600.00,
+            "stock": 8
         },
-        "precio": 1800
-    },
-    {
-        "id": "camiseta-03",
-        "titulo": "Camiseta 03",
-        "imagen": "./img/camisetas/camiseta3.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+        {
+            "id": 4,
+            "nombre": "Mouse inalámbrico Logitech",
+            "precio": 32800.00,
+            "stock": 15
         },
-        "precio": 1900
-    },
-    {
-        "id": "camiseta-04",
-        "titulo": "Camiseta 04",
-        "imagen": "./img/camisetas/camiseta4.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+        {
+            "id": 5,
+            "nombre": "Auriculares Bluetooth Sony",
+            "precio": 28750.00,
+            "stock": 7
         },
-        "precio": 1220
-    },
-    {
-        "id": "camiseta-05",
-        "titulo": "Camiseta 05",
-        "imagen": "./img/camisetas/camiseta5.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+        {
+            "id": 6,
+            "nombre": "Impresora multifuncional Epson",
+            "precio": 157950.00,
+            "stock": 3
         },
-        "precio": 1070
-    },
-    {
-        "id": "camiseta-06",
-        "titulo": "Camiseta 06",
-        "imagen": "./img/camisetas/camiseta6.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+        {
+            "id": 7,
+            "nombre": "Disco duro externo Adata 2TB",
+            "precio": 60400.00,
+            "stock": 10
         },
-        "precio": 1130
-    },
-    {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/camisetas/camiseta7.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1180
-    },
-    {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 08",
-        "imagen": "./img/camisetas/camiseta8.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1100
-    },
-    {
-        "id": "pantalon-01",
-        "titulo": "Pantalón 01",
-        "imagen": "./img/pantalones/pantalon1.jpg",
-        "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
-        },
-        "precio": 2600
-    },
-    {
-        "id": "pantalon-02",
-        "titulo": "Pantalón 02",
-        "imagen": "./img/pantalones/pantalon2.jpg",
-        "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
-        },
-        "precio": 3200
-    },
-    {
-        "id": "pantalon-03",
-        "titulo": "Pantalón 03",
-        "imagen": "./img/pantalones/pantalon3.jpg",
-        "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
-        },
-        "precio": 3150
-    },
-    {
-        "id": "pantalon-04",
-        "titulo": "Pantalón 04",
-        "imagen": "./img/pantalones/pantalon4.jpg",
-        "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
-        },
-        "precio": 4000
-    },
-    {
-        "id": "pantalon-05",
-        "titulo": "Pantalón 05",
-        "imagen": "./img/pantalones/pantalon5.jpg",
-        "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
-        },
-        "precio": 2900
-    }
-]
+        {
+            "id": 8,
+            "nombre": "Tarjeta gráfica NVIDIA GeForce RTX 3070",
+            "precio": 614500,
+            "stock": 2
+        }
+    ]
+}
